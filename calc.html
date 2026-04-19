@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<body style="background-color: #ffd1dc;">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuenta Pollos</title>
+    <style>
 
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffd1dc;
+}
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #contador {
+            font-size: 50px;
+            margin: 20px;
+            color: darkgreen;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Calculadora Cuenta Pollos</h1>
+ <img src="pio.png" alt="Descripción">
+    <div id="contador">0</div>
+
+    <button onclick="sumar()">+1 pollo</button>
+    <button onclick="restar()">-1 pollo</button>
+    <button onclick="sumarDiez()">+10 pollos</button>
+    <button onclick="reiniciar()">Reiniciar</button>
+
+    <script>
+        let pollos = 0;
+
+        function actualizarPantalla() {
+            document.getElementById("contador").textContent = pollos;
+        }
+
+        function sumar() {
+            pollos = pollos + 1;
+            actualizarPantalla();
+        }
+
+        function restar() {
+            pollos = pollos - 1;
+            actualizarPantalla();
+        }
+
+        function sumarDiez() {
+            pollos = pollos + 10;
+            actualizarPantalla();
+        }
+
+        function reiniciar() {
+            pollos = 0;
+            actualizarPantalla();
+        }
+
+        function reiniciar() {
+    alert("Para reiniciar necesitas la versión PRO 🐔💰");
+}
+    </script>
+
+</body>
+</html>
