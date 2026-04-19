@@ -11,7 +11,7 @@
 
 ## 🛠️ Tecnologías Utilizadas
 
-* **Lógica:** [Escribe aquí el lenguaje, ej: C++]
+* **Lógica:** HTML, CSS, JavaScript
 * **Concepto:** Economía de micro-transacciones simulada.
 
 ## 💰 Plan de Suscripción
